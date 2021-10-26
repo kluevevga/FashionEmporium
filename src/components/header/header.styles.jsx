@@ -22,12 +22,11 @@ export const HeaderContainer = styled.div`
 
 export const LogoContainer = styled(Link)`
     height: 100%;
-    width: 70px;
     display:flex;
     align-items: center;
 
     @media screen and (max-width: 640px) {
-        width: 40px;
+        width: 150px;
     }
 `;
 

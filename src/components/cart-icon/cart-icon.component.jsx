@@ -12,8 +12,8 @@ const CartIcon = () => {
 
     return (
         <CartIconContainer onClick={() => dispatch(toggleCartHidden())}>
-            <Icon as={ShopingIcon} />
             <ItemsCount>{itemsCount}</ItemsCount>
+            <Icon as={ShopingIcon} />
         </CartIconContainer>
     );
 };

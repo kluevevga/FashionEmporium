@@ -2,36 +2,29 @@ import styled from 'styled-components';
 
 
 export const CartIconContainer = styled.div`
-    width: 36px;
-    height: 36px;
-    margin-left: 14px;
+    min-width: 85px;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     cursor: pointer;
 
     @media screen and (max-width: 640px) {
-        margin-left: 10px;
-        width: 30px;
-        height: 30px;
+        min-width: 65px;
     }
 `;
 
 export const Icon = styled.div`
-    width: 36px;
-    height: 36px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    width: 40px;
 `;
 
 export const ItemsCount = styled.div`
-    position: absolute;
-    font-size: 16px;
-    font-weight: bold;
-    bottom: 10px;
+    margin-right: 5px;
+    font-size: 22px;
+    color: #e11d48;
 
     @media screen and (max-width: 640px) {
         font-size: 14px;
-        bottom: 8px;
     }
 `;
